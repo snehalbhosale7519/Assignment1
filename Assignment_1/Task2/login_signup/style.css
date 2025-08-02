@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding-left: 30%;
+    overflow: hidden;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 90%;
+}
+
+button {
+    padding: 10px;
+    width: 95%;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.login-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+.background-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100w;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
